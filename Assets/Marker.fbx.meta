@@ -1,0 +1,211 @@
+- !<AssetImportMetadata/fc4a3c54-2385-4859-af07-8ecb5627f66f>
+  ImportedAssetIds:
+    .hidden/RedPart: !<reference> d579cac5-2870-4cdc-a0c8-711e1751957a
+    .hidden/white: !<reference> b6fef309-f5bd-46ad-b117-f35bed531004
+    128bde27be2ce001: !<reference> 4d4d5bc5-6e76-4031-b05f-2b9f0280609d
+    3f7b3c3c93a46f30: !<reference> fc4e006b-c363-43d9-b03d-470520f3fe60
+    7a0dd5cd69df73fa: !<reference> fb256270-867b-4755-8f32-da39b8ab4b20
+    Materials/RedPart: !<reference> 25b5ef7f-32cf-4bee-ad8b-517647a06bd2
+    Materials/RedPart|RedPart|GraphPassInfo: !<reference> dd887b8f-22dc-42ea-9682-72a62a903b8f
+    Materials/WhitePart: !<reference> e395ae2b-0dcc-4ebd-b5b2-928242c56823
+    Materials/WhitePart|WhitePart|GraphPassInfo: !<reference> 6220e362-9812-4fe7-9096-3b0ae2c2f408
+    Meshes/Marker_Body: !<reference> e28f1752-c904-418a-bc83-c007a45a4941
+    Meshes/Marker_Cap: !<reference> 24c5235c-2196-4526-85da-328f9b2db122
+    Meshes/Marker_Front: !<reference> 8ecdbf8d-3390-443b-a354-ee23af4f830c
+    Scene: !<reference> 57aa0812-3c4b-4922-a9e5-3c1a78671a94
+    Textures/RedParts_BaseColor: !<reference> 2c84069f-4c0d-49df-a82c-d27c53b03f02
+    Textures/RedParts_Normal: !<reference> fdd5d6e4-85ea-44a2-80e6-b3eae96f0b59
+    Textures/WhitePart_BaseColor: !<reference> 62b3badf-4eb8-4f0d-b8f8-5f812c27e16a
+    Textures/WhitePart_Normal: !<reference> a5fe8c1f-60ee-476d-aa6c-6d7d878c6dfc
+    acd60cb5fe0f20e2: !<reference> b0bc19c1-69a0-486d-89a7-ed59a8166833
+    aeb05793f7537adb: !<reference> f4942a7e-5b3d-40d6-baed-029aedb769ac
+    ce754e5f99ae1ab7: !<reference> 19081ad6-74f9-4c00-9d53-4a9496e6c005
+    fd5ef429543185a3: !<reference> a588b202-9f8b-43d1-9a31-7847ae106d80
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 57aa0812-3c4b-4922-a9e5-3c1a78671a94
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> e613dd8f-4a10-4156-a26c-02c6cc81835a
+  DependentFiles:
+    - RedParts_BaseColor.png
+    - RedParts_Metallic.png
+    - RedParts_Normal.png
+    - RedParts_Roughness.png
+    - WhitePart_BaseColor.png
+    - WhitePart_Metallic.png
+    - WhitePart_Normal.png
+    - WhitePart_Roughness.png
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: false
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: false
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/26805ad3-4491-4eb6-9a3c-8436fb5fa764>
+  PrefabRemaps:
+    []
+  Name: Marker_Body
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 1.172667, z: -1.927062}
+    rotation: {x: -90.000015, y: -0.000000, z: 0.000000}
+    scale: {x: 0.870767, y: 0.870767, z: 0.870767}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f2e807d9-4fca-4bbd-9349-79c8e103369e
+- !<ObjectPrefab/50db40a6-51d2-4df2-8413-ba84d923e060>
+  PackagePath: ""
+  objects:
+    - !<own> 54aa0e2a-66c4-4807-853d-4f8e733f15ad
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/54aa0e2a-66c4-4807-853d-4f8e733f15ad>
+  PrefabRemaps:
+    []
+  Name: Marker
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 26805ad3-4491-4eb6-9a3c-8436fb5fa764
+    - !<own> c2168d9f-b299-4392-ba9a-ef94a141a37f
+    - !<own> f209d2e4-0cd7-4a57-976c-f380cd7e0cc4
+  Components:
+    []
+- !<RenderMeshVisual/7de1beaa-e8c3-412c-8975-ed13b115578f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 25b5ef7f-32cf-4bee-ad8b-517647a06bd2
+  Mesh: !<reference> 24c5235c-2196-4526-85da-328f9b2db122
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c2168d9f-b299-4392-ba9a-ef94a141a37f>
+  PrefabRemaps:
+    []
+  Name: Marker_Cap
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -3.484146, y: 1.169785, z: 5.481745}
+    rotation: {x: -90.000015, y: -0.000000, z: 180.000000}
+    scale: {x: 0.870767, y: 0.870767, z: 0.870767}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7de1beaa-e8c3-412c-8975-ed13b115578f
+- !<ObjectPrefabAssetData/e613dd8f-4a10-4156-a26c-02c6cc81835a>
+  SourceRemaps:
+    - 19081ad6-74f9-4c00-9d53-4a9496e6c005: 7de1beaa-e8c3-412c-8975-ed13b115578f
+    - 4d4d5bc5-6e76-4031-b05f-2b9f0280609d: f209d2e4-0cd7-4a57-976c-f380cd7e0cc4
+    - 57aa0812-3c4b-4922-a9e5-3c1a78671a94: 50db40a6-51d2-4df2-8413-ba84d923e060
+    - a588b202-9f8b-43d1-9a31-7847ae106d80: c2168d9f-b299-4392-ba9a-ef94a141a37f
+    - b0bc19c1-69a0-486d-89a7-ed59a8166833: e635684c-a664-4e58-a977-96dee8a1e10f
+    - f4942a7e-5b3d-40d6-baed-029aedb769ac: f2e807d9-4fca-4bbd-9349-79c8e103369e
+    - fb256270-867b-4755-8f32-da39b8ab4b20: 54aa0e2a-66c4-4807-853d-4f8e733f15ad
+    - fc4e006b-c363-43d9-b03d-470520f3fe60: 26805ad3-4491-4eb6-9a3c-8436fb5fa764
+  SourceState: !<own> 50db40a6-51d2-4df2-8413-ba84d923e060
+- !<RenderMeshVisual/e635684c-a664-4e58-a977-96dee8a1e10f>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 25b5ef7f-32cf-4bee-ad8b-517647a06bd2
+  Mesh: !<reference> 8ecdbf8d-3390-443b-a354-ee23af4f830c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f209d2e4-0cd7-4a57-976c-f380cd7e0cc4>
+  PrefabRemaps:
+    []
+  Name: Marker_Front
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 1.172665, z: 4.946631}
+    rotation: {x: -0.000011, y: 0.000000, z: 0.000000}
+    scale: {x: 1.461546, y: 1.461546, z: 1.461546}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e635684c-a664-4e58-a977-96dee8a1e10f
+- !<RenderMeshVisual/f2e807d9-4fca-4bbd-9349-79c8e103369e>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e395ae2b-0dcc-4ebd-b5b2-928242c56823
+  Mesh: !<reference> e28f1752-c904-418a-bc83-c007a45a4941
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

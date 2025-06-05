@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/bfa003df-c5e0-c63b-2d7a-634c088f0731>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 72138d5e-1245-4f8c-9084-eea4a4f18986
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 72138d5e-1245-4f8c-9084-eea4a4f18986
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 13c66b44-50a0-4076-85c7-8120d5541d3c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    AssetLibraryId: 74KvpxwzBlXZ3pPQlnphK
+- !<ScriptAssetData/13c66b44-50a0-4076-85c7-8120d5541d3c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 847042e7-af54-4749-9862-e8e293fa6cfb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    gestureName: false
+    handType: false
+    hintText: false
+    logMessage: false
+    noGestureHint: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - handType: 0
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      noGestureHint: ""
+      gestureName: ""
+      logMessage: false
+  ScriptTypes:
+    -
+      {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

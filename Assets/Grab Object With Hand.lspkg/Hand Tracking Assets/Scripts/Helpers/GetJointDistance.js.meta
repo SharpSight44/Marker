@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/9c9f9670-19bc-0d25-c28c-62631405fac1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 7b69cdae-a2b4-49e9-8347-41ebaf6ff020
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 7b69cdae-a2b4-49e9-8347-41ebaf6ff020
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 09a1da30-6c4c-4fca-a7f7-7cbb129544a6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    AssetLibraryId: 74KvpxwzBlXZ3pPQlnphK
+- !<ScriptAssetData/09a1da30-6c4c-4fca-a7f7-7cbb129544a6>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00d6a285-5edc-4702-a393-1a8db71396f2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    checkDistance: false
+    checkType: false
+    enterRangeTrigger: false
+    exitRangeTrigger: false
+    handType: false
+    jointGroupA: false
+    jointGroupB: false
+    maxDistance: false
+    minDistance: false
+    sendTriggers: false
+    targetObject: false
+    visualizeDistance: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - handType: 0
+      checkType: 0
+      jointGroupA: !<string[]>
+        []
+      jointGroupB: !<string[]>
+        []
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visualizeDistance: false
+      checkDistance: false
+      minDistance: !<float> 0.000000
+      maxDistance: !<float> 100.000000
+      sendTriggers: false
+      enterRangeTrigger: ""
+      exitRangeTrigger: ""
+  ScriptTypes:
+    -
+      {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
