@@ -1,0 +1,5 @@
+ExternalSources:
+  type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
+  value:
+    - fc4a3c54-2385-4859-af07-8ecb5627f66f: "C:/Users/Imagi/Downloads/Marker.fbx"
+  options: 4
